@@ -1,0 +1,3 @@
+x-api-meta:
+  slack: '#foo'
+  audience: external

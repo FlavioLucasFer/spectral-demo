@@ -1,0 +1,26 @@
+{
+  "name": "spectral-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-all": "spectral lint ./specs/**/*.yaml --ruleset ./spectral/ruleset.js",
+    "lint-internal": "spectral lint ./specs/internal/**/*.yaml --ruleset ./spectral/ruleset.js",
+    "lint-external": "spectral lint ./specs/external/**/*.yaml --ruleset ./spectral/ruleset.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioLucasFer/spectral-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlavioLucasFer/spectral-demo/issues"
+  },
+  "homepage": "https://github.com/FlavioLucasFer/spectral-demo#readme",
+  "dependencies": {
+    "@stoplight/spectral-formats": "^1.4.0",
+    "@stoplight/spectral-functions": "^1.7.2"
+  }
+}
