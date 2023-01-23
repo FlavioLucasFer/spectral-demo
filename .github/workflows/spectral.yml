@@ -14,5 +14,5 @@ jobs:
       # Run Spectral
       - uses: stoplightio/spectral-action@latest
         with:
-          file_glob: './specs/**/*.yaml'
-          spectral_ruleset: './spectral/ruleset.js'
+          file_glob: 'specs/**/*.yaml'
+          spectral_ruleset: 'spectral/ruleset.js'
