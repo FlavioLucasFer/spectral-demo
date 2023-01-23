@@ -7,6 +7,7 @@ jobs:
   build:
     name: Run Spectral
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       # Check out the repository
       - uses: actions/checkout@v2
